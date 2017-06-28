@@ -42,7 +42,7 @@ for i in range(len(DNA_sequence)):
             break
 
 #print some text and string values, from these variables, replacing the DNA_sequence "T"s with "U"s and printing it as the RNA sequence.
-print "DNA Sequence: %s\nRNA sequence: %s\nProtein Sequence: %s" % (DNA_sequence, DNA_sequence.replace('T','U'), protein_sequence)
+#print "DNA Sequence: %s\nRNA sequence: %s\nProtein Sequence: %s" % (DNA_sequence, DNA_sequence.replace('T','U'), protein_sequence)
 
 #if loop that sets the condition if the first amino acid is an 'M' and the last protein in the string is a stop codon, its a complete sequence
 if(protein_sequence[0]=='M' and protein_sequence[len(protein_sequence)-1]=="*"):
